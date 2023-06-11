@@ -5,7 +5,7 @@ pkg update && pkg upgrade -y
 pkg install python -y
 pkg install git
 git clone https://github.com/Livian-xyz/Get-Proxy
-cd Free-FB
+cd Get-Proxy
 pip3 install requirements.txt
 ```
 ### Untuk Jalankan Script

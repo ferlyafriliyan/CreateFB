@@ -10,7 +10,7 @@ class Main:
 		self.url = "https://free-proxy-list.net/"
 		proxies = []
 		os.system("clear")
-		print(" ____________________ ________  ____  ________.___.\n \______   \______   \\_____   \ \   \/  /\__  |   |\n  |     ___/|       _/ /   |   \ \     /  /   |   |\n  |    |    |    |   \/    |    \/     \  \____   |\n  |____|    |____|_  /\_______  /___/\  \ / ______|\n                   \/         \/      \_/ \/       \n        [ GET PROXY FROM FREE-PROXYLIST ]\n        [ BY XNSCODETEAM]\n")
+		print(" ____________________ ________  ____  ________.___.\n \______   \______   \\_____   \ \   \/  /\__  |   |\n  |     ___/|       _/ /   |   \ \     /  /   |   |\n  |    |    |    |   \/    |    \/     \  \____   |\n  |____|    |____|_  /\_______  /___/\  \ / ______|\n                   \/         \/      \_/ \/       \n        [ GET PROXY FROM FREE-PROXYLIST ]\n")
 		prxy = ses.get(self.url).text
 		proxy = re.findall(r"<tr><td>(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})</td><td>(\d+?)</td>", prxy)
 		for x in proxy:

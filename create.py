@@ -33,7 +33,7 @@ except Exception as e :
 
 #--> Global Variable
 auth1 = 'Dapunta Khurayra X'
-auth2 = 'Ferly Afriliyan'
+auth2 = 'Suci Maharani Putri'
 reco = 'Gausa Direcode Bos, Tinggal Pake Aja'
 rede = 'Dibilangin Gausa Direcode'
 key = len(auth1)*len(auth2)-len(auth1)
@@ -155,7 +155,7 @@ def logo():
     print('%s/    \  \/\_  __ \ __ \\\\__  \\\\   __\/ __ \%s|    __)   |  _/%s'%(P,M,P))
     print('%s\ %s0.1 %s\____|  | \/ ___/ / __ \|  | \  ___/%s|   \  |   |   \\%s'%(P,M,P,M,P))
     print('%s \________/|__|  \_____>______/__|  \____>%s|___/  |_______/%s'%(P,M,P))
-    print('%s\n      ─────────────── %s• %sFer_Dapunta %s• %s───────────────\n%s'%(A,M,P,M,A,P))
+    print('%s\n      ─────────────── %s• %sRan_Arraya %s• %s───────────────\n%s'%(A,M,P,M,A,P))
 
 #--> Main Menu
 class menu:
@@ -209,7 +209,7 @@ class menu_create:
             if password in ['akusayangkamu','123456','iloveyou','password','qwerty','sayang','anjing','bismillah']:
                 exit('%sGunakan Password Yang Kuat!%s'%(M,P))
         else:
-            password = 'dapuntaadyapaksi'
+            password = 'dapuntaloverani'
         d = input('%s[%s•%s] %sBeri Delay (%sDalam Menit%s) : '%(M,P,M,P,M,P))
         if d == '' or d == ' ':
             d = 1

@@ -6,7 +6,7 @@ pkg install python -y
 pkg install git
 git clone https://github.com/ferlyafriliyan/CreateFB
 cd CreateFB
-pip3 -r install requirements.txt
+pip3 install -r requirements.txt
 ```
 ### Untuk Jalankan Script
 ```python

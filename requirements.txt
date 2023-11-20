@@ -8,3 +8,5 @@ pystyle
 fake_useragent
 stdiomask
 inquirer
+pyfiglet
+colorama
